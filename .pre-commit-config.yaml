@@ -4,5 +4,6 @@ repos:
     rev: v3.2.0
     hooks:
     -   id: trailing-whitespace
+        additional_dependencies: [this-dependency-does-not-exist-asottile]
     -   id: end-of-file-fixer
     -   id: check-yaml
