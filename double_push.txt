@@ -1,4 +1,4 @@
-this has trailing whitespace    
+this has trailing whitespace
 
 and the end of the file is wrong
 
