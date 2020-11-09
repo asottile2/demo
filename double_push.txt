@@ -1,4 +1,4 @@
-trailing ws   
+trailing ws
 
 eof wrong
 
