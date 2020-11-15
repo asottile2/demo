@@ -13,4 +13,4 @@ repos:
         language: system
         always_run: true
         pass_filenames: false
-        entry: python3 -c '[print("a" * 99) for _ in range(16000)]'
+        entry: python3 -c '[print("a" * 99) for _ in range(16001)]'
