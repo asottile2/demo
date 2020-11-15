@@ -14,4 +14,3 @@ repos:
         always_run: true
         pass_filenames: false
         entry: python3 -c '[print("a" * 64") for _ in range(100)]'
-        
