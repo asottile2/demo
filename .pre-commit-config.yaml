@@ -9,7 +9,7 @@ repos:
     hooks:
     -   id: zzz
         name: zzz
-        entry: sleep 20
+        entry: sleep 200
         language: system
         always_run: true
         pass_filenames: false
