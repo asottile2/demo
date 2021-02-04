@@ -6,3 +6,11 @@ repos:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
     -   id: check-yaml
+-   repo: local
+    hooks:
+    -    id: zzz
+         name: zzz
+         entry: sleep 120
+         language: system
+         verbose: true
+         pass_filenames: false
