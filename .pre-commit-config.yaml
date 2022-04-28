@@ -17,4 +17,4 @@ repos:
         entry: rustfmt
         language: rust
         types: [rust]
-        additional_dependencies: [cli:rustfmt-nightly:1.4.21]
+        additional_dependencies: [cli:rustfmt-nightly:1.4.21, smallvec:0.5.1]
