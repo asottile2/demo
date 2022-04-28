@@ -12,3 +12,9 @@ repos:
         entry: shellharden
         types: [shell]
         additional_dependencies: [cli:shellharden:3.1.0]
+    -   id: rustfmt
+        name: rustfmt
+        entry: rustfmt
+        language: rust
+        types: [rust]
+        additional_dependencies: [cli:rustfmt-nightly:1.4.21]
