@@ -4,3 +4,11 @@ repos:
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+-   repo: local
+    hooks:
+    -   id: rust-local
+        name: rust-local
+        language: rust
+        entry: shellharden
+        types: [shell]
+        additional_dependencies: [cli:shellharden:3.1.0]
