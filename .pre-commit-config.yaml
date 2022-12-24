@@ -4,3 +4,22 @@ repos:
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+-   repo: local
+    hooks:
+    -   id: hello
+        name: hello
+        language: golang
+        additional_dependencies: ['golang.org/x/example/hello@latest']
+        entry: hello
+        pass_filenames: false
+        verbose: true
+        always_run: true
+-   repo: local
+    hooks:
+    -   id: also-bad
+        name: plz no do
+        entry: flake8 --version
+        language: python
+        additional_dependencies: [flake8]
+        verbose: true
+        always_run: true
