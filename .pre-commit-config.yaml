@@ -23,3 +23,4 @@ repos:
         additional_dependencies: [flake8]
         verbose: true
         always_run: true
+        language_version: python3.11
