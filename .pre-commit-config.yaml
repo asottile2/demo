@@ -3,7 +3,7 @@ repos:
     rev: v4.2.0
     hooks:
     -   id: end-of-file-fixer
-    -   id: trailing-whitespace  # hi
+    -   id: trailing-whitespace  # hi again
 -   repo: local
     hooks:
     -   id: hello
