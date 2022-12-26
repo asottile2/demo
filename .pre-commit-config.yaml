@@ -24,3 +24,8 @@ repos:
         verbose: true
         always_run: true
         language_version: python3.11
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.30.0
+    hooks:
+    -   id: eslint
+        args: [--fix]
