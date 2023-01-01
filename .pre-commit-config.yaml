@@ -4,3 +4,7 @@ repos:
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+- repo: https://github.com/cmhughes/latexindent.pl
+  rev: V3.19.1
+  hooks:
+  - id: latexindent
