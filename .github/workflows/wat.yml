@@ -6,6 +6,6 @@ on:
 jobs:
   pr:
     runs-on: ubuntu-latest
-    steps:
+    steps:  
     - run: echo hi hi hi  
     - run: echo hi hi hi  
