@@ -7,4 +7,5 @@ jobs:
   pr:
     runs-on: ubuntu-latest
     steps:
-    - run: echo hi hi hi
+    - run: echo hi hi hi  
+    - run: echo hi hi hi  
