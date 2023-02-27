@@ -4,3 +4,9 @@ repos:
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+repos:
+  - repo: https://github.com/qarmin/qml_formatter.git
+    rev: 0.2.0
+    hooks:
+      - id: qml_formatter
+        language_version: 1.60.0
