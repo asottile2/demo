@@ -4,13 +4,9 @@ repos:
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
--   repo: local
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.48.0
     hooks:
-    -   id: hello
-        name: hello
-        language: golang
-        additional_dependencies: ['golang.org/x/example/hello@latest']
-        entry: hello
-        pass_filenames: false
-        verbose: true
-        always_run: true
+    -   id: eslint
+        args: [--fix]
+        
