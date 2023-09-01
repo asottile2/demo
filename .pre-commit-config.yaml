@@ -9,4 +9,3 @@ repos:
     hooks:
     -   id: eslint
         args: [--fix]
-
