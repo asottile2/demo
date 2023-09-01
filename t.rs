@@ -1,3 +1,3 @@
-fn main(   ) {
-dbg!("hi");
+fn main() {
+    dbg!("hi");
 }
