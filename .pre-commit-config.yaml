@@ -4,8 +4,14 @@ repos:
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
--   repo: https://github.com/qarmin/qml_formatter.git
-    rev: 0.2.0
+-   repo: local
     hooks:
-      - id: qml_formatter
+    -   id: hello
+        name: hello
+        language: golang
+        additional_dependencies: ['golang.org/x/example/hello@latest']
+        entry: hello
+        pass_filenames: false
+        verbose: true
+        always_run: true
 
