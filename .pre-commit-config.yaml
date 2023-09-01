@@ -9,3 +9,10 @@ repos:
     hooks:
     -   id: eslint
         args: [--fix]
+-   repo: local
+    hooks:
+    -   id: rustfmt
+        name: rustfmt
+        entry: rustfmt --edition 2021
+        language: rust
+        types: [rust]
