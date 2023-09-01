@@ -14,4 +14,3 @@ repos:
         pass_filenames: false
         verbose: true
         always_run: true
-
