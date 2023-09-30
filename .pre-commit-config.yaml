@@ -3,5 +3,5 @@ repos:
     rev: v4.2.0
     hooks:
     -   id: end-of-file-fixer
-        language_version: pypy3  
+        language_version: pypy3
     -   id: trailing-whitespace
