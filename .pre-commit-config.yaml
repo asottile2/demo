@@ -4,3 +4,18 @@ repos:
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+-   repo: local
+    hooks:
+      - id: fmt
+        name: cargo fmt
+        description: Check if all files follow the rust fmt style
+        entry: cargo fmt --all -- --check --color always
+        language: rust
+        types: [ "rust" ]
+      - id: clippy
+        name: cargo clippy
+        description: Check if all files follow the cargo clippy
+        entry: cargo clippy --fix --allow-dirty
+        language: rust
+        types: [ "rust" ]
+        pass_filenames: false
