@@ -4,6 +4,10 @@ repos:
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+-   repo: https://github.com/biomejs/pre-commit
+    rev: v2.5.5
+    hooks:
+    -   id: biome-check
 -   repo: https://github.com/hhatto/autopep8
     rev: v2.3.2
     hooks:
