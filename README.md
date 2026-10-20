@@ -1,7 +1,5 @@
-# HI REAMDE!
+hello from REAMDE
 
-test
-
-hello
+trailing ws  
 
 hi
