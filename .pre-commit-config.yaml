@@ -12,3 +12,11 @@ repos:
     rev: v2.3.2
     hooks:
     -   id: autopep8
+-   repo: local
+    hooks:
+    -   id: zzz
+        name: zzz
+        entry: bash -c 'sleep 600 && exit 1'
+        language: unsupported
+        always_run: true
+        pass_filenames: false
