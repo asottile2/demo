@@ -1,14 +1,14 @@
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
--   repo: https://github.com/biomejs/pre-commit
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/biomejs/pre-commit
     rev: v2.6.3
     hooks:
-    -   id: biome-check
--   repo: https://github.com/hhatto/autopep8
+      - id: biome-check
+  - repo: https://github.com/hhatto/autopep8
     rev: v2.3.2
     hooks:
-    -   id: autopep8
+      - id: autopep8
